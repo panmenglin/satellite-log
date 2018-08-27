@@ -3,4 +3,6 @@
 * [卫星日志](README.md)
 * [规范](./notes/rules/README.md)
   * [commit message 规范](./notes/rules/rules-commit-message.md)
+* [工具](./notes/tools/README.md)
+  * [mergetool 配置](./notes/tools/tools-merge-tool.md)
 

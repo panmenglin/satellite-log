@@ -5,7 +5,10 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "changelog": "standard-version"
+    "changelog": "standard-version",
+    "build": "gitbook build ./ ./docs",
+    "dev": "gitbook serve ./ ./docs",
+    "build-commit": "npm run build && git add ."
   },
   "author": "msx_pan",
   "license": "ISC",
@@ -24,6 +27,7 @@
   },
   "husky": {
     "hooks": {
+      "pre-commit": "npm run build-commit",
       "commit-msg": "commitlint -e $GIT_PARAMS"
     }
   }
