@@ -1,0 +1,30 @@
+{
+  "name": "satellite-log",
+  "version": "1.0.2",
+  "description": "学习记录",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "changelog": "standard-version"
+  },
+  "author": "msx_pan",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^7.0.0",
+    "@commitlint/config-conventional": "^7.0.1",
+    "commitlint-config-cz": "^0.10.1",
+    "cz-customizable": "^5.2.0",
+    "husky": "^1.0.0-rc.13",
+    "standard-version": "^4.4.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -e $GIT_PARAMS"
+    }
+  }
+}
