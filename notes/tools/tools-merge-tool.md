@@ -1,9 +1,9 @@
-# git下的mergetool配置
+# git 下的 mergetool 配置
 
 在使用 `git merge` 命令合并分支遇到冲突的时候，虽然可以通过 `git diff` 来查看冲突的具体信息，并查找冲突依次解决，但是当冲突较多的时候寻找每个文件的冲突标记去解决可能会比较麻烦，git command 提供了
  `difftool` 和 `mergetool` 命令来支持通过其他软件输出 diff 的分析结果以及进行文件的 merge，下面仅以大家常用的比较工具 Beyond Compare 为例，简述 `difftool` 和 `mergetool` 的配置
 
-## 1.查看当前系统支持的merge插件
+## 1.查看当前系统支持的 merge 插件
 
 ```
 git difftool --tool-help 
