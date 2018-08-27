@@ -14,3 +14,12 @@ _book
 *.epub
 *.mobi
 *.pdf
+
+# docs
+docs/.commitlintrc.js
+docs/.cz-config.js
+docs/.gitignore
+docs/CHANGELOG.md
+docs/package.json
+docs/search_index.json
+docs/validate-commit-msg.js
