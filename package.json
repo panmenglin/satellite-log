@@ -1,6 +1,6 @@
 {
   "name": "satellite-log",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "学习记录",
   "main": "app.js",
   "scripts": {
