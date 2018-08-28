@@ -1,6 +1,6 @@
 {
   "name": "satellite-log",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "学习记录",
   "main": "app.js",
   "scripts": {
@@ -17,6 +17,7 @@
     "@commitlint/cli": "^7.0.0",
     "@commitlint/config-conventional": "^7.0.1",
     "commitlint-config-cz": "^0.10.1",
+    "cz-conventional-changelog": "^2.1.0",
     "cz-customizable": "^5.2.0",
     "husky": "^1.0.0-rc.13",
     "standard-version": "^4.4.0"
