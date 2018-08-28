@@ -90,6 +90,10 @@ package.json 配置 hook
 6. 通过 standard-version 自动生成 CHANGELOG
 
 ```
+npm install --save-dev cz-conventional-changelog
+```
+
+```
 npm install --save-dev standard-version
 ```
 
