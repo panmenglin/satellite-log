@@ -9,7 +9,7 @@
     "build": "gitbook build ./ ./docs",
     "dev": "gitbook serve ./ ./docs",
     "build-commit": "npm run build && git add .",
-    "push": "git push --follow-tags origin master && npm publish"
+    "push": "git push --follow-tags origin master"
   },
   "author": "msx_pan",
   "license": "ISC",
