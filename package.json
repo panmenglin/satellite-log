@@ -8,7 +8,8 @@
     "changelog": "standard-version",
     "build": "gitbook build ./ ./docs",
     "dev": "gitbook serve ./ ./docs",
-    "build-commit": "npm run build && git add ."
+    "build-commit": "npm run build && git add .",
+    "push": "git push --follow-tags origin master && npm publish"
   },
   "author": "msx_pan",
   "license": "ISC",
