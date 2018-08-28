@@ -7,4 +7,6 @@
   * [mergetool 配置](./notes/tools/tools-merge-tool.md)
 * [node-webkit](./notes/node-webkit/README.md)
   * [node-webkit 桌面应用的热更新](./notes/node-webkit/node-webkit-updater.md)
+* [Vue.js](./notes/vue/README.md)
+  * [axios](./notes/vue/axios.md)
 
