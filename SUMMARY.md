@@ -11,4 +11,6 @@
   * [node-webkit 桌面应用的热更新](./notes/node-webkit/node-webkit-updater.md)
 * [Vue.js](./notes/vue/README.md)
   * [axios](./notes/vue/axios.md)
+* [css](./notes/css/README.md)
+  * [位移动画使用 translate 替代其他位移属性](./notes/css/css-translate.md)
 
