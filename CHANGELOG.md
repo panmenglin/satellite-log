@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.3.0"></a>
+# [1.3.0](https://github.com/msxpan/satellite-log/compare/v1.2.0...v1.3.0) (2018-08-30)
+
+
+### Features
+
+* **doc:** 位移动画使用 translate 替代其他位移属性 ([101d5ec](https://github.com/msxpan/satellite-log/commit/101d5ec))
+
+
+
 <a name="1.2.0"></a>
 # [1.2.0](https://github.com/msxpan/satellite-log/compare/v1.0.6...v1.2.0) (2018-08-29)
 
