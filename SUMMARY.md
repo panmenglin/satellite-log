@@ -13,4 +13,7 @@
   * [axios](./notes/vue/axios.md)
 * [css](./notes/css/README.md)
   * [位移动画使用 translate 替代其他位移属性](./notes/css/css-translate.md)
+* [wechat](./notes/wechat/README.md)
+  * [小程序](./notes/wechat/mini-program/README.md)
+    * [小程序Q&A](./notes/wechat/mini-program/Q&A.md)
 
