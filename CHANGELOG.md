@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.5.0"></a>
+# [1.5.0](https://github.com/panmenglin/satellite-log/compare/v1.4.0...v1.5.0) (2018-08-31)
+
+
+### Features
+
+* **doc:** translate 和 小程序Q&A 内容更新 ([9f4c55e](https://github.com/panmenglin/satellite-log/commit/9f4c55e))
+
+
+
 <a name="1.4.0"></a>
 # [1.4.0](https://github.com/msxpan/satellite-log/compare/v1.3.0...v1.4.0) (2018-08-30)
 
