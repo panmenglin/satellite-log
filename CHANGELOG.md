@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.6.0"></a>
+# [1.6.0](https://github.com/msxpan/satellite-log/compare/v1.1.0...v1.6.0) (2018-09-02)
+
+
+### Features
+
+* **doc:** backstopJS 安装 ([ad62aba](https://github.com/msxpan/satellite-log/commit/ad62aba))
+* **doc:** easy mock 本地搭建 ([a28a499](https://github.com/msxpan/satellite-log/commit/a28a499))
+* **doc:** translate 和 小程序Q&A 内容更新 ([9f4c55e](https://github.com/msxpan/satellite-log/commit/9f4c55e))
+* **doc:** 位移动画使用 translate 替代其他位移属性 ([101d5ec](https://github.com/msxpan/satellite-log/commit/101d5ec))
+* **doc:** 小程序相关 ([fa25144](https://github.com/msxpan/satellite-log/commit/fa25144))
+
+
+
 <a name="1.5.0"></a>
 # [1.5.0](https://github.com/panmenglin/satellite-log/compare/v1.4.0...v1.5.0) (2018-08-31)
 
