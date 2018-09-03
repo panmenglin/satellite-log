@@ -8,8 +8,29 @@
 
 python
 
+我这里直接使用的 python 2.7
+
 pip
+
+```
+sudo easy_install pip
+```
 
 selenium
 
+```
+pip install -U selenium
+```
+
 chromedriver
+
+下载 chromedriver
+
+[下载地址](https://sites.google.com/a/chromium.org/chromedriver/downloads)
+
+## 模拟用户行为
+
+```python
+from selenium import webdriver
+browser = webdriver.Chrome()
+```
