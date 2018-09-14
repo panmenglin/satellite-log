@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.7.0"></a>
+# [1.7.0](https://github.com/panmenglin/satellite-log/compare/v1.5.0...v1.7.0) (2018-09-14)
+
+
+### Features
+
+* **doc:** backstopJS 安装 ([ad62aba](https://github.com/panmenglin/satellite-log/commit/ad62aba))
+* **doc:** 新增 ios css 兼容性 ([032c2f3](https://github.com/panmenglin/satellite-log/commit/032c2f3))
+
+
+
 <a name="1.6.0"></a>
 # [1.6.0](https://github.com/msxpan/satellite-log/compare/v1.1.0...v1.6.0) (2018-09-02)
 
