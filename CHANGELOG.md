@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.8.0"></a>
+# [1.8.0](https://github.com/panmenglin/satellite-log/compare/v1.7.0...v1.8.0) (2018-09-16)
+
+
+### Features
+
+* **doc:** vue-photos-scroll 使用说明 ([9703c78](https://github.com/panmenglin/satellite-log/commit/9703c78))
+
+
+
 <a name="1.7.0"></a>
 # [1.7.0](https://github.com/panmenglin/satellite-log/compare/v1.5.0...v1.7.0) (2018-09-14)
 
