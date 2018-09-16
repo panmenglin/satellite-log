@@ -11,6 +11,7 @@
   * [node-webkit 桌面应用的热更新](./notes/node-webkit/node-webkit-updater.md)
 * [Vue.js](./notes/vue/README.md)
   * [axios](./notes/vue/axios.md)
+  * [vue-photos-scroll](./notes/vue/vue-photos-scroll.md)
 * [自动化测试](./notes/test/README.md)
   * [BackstopJS](./notes/test/backstopjs/README.md)
     * [BackstopJS 安装](./notes/test/backstopjs/backstopjs.md)
