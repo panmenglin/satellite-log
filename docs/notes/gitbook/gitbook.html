@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>mergetool 配置 · GitBook</title>
+        <title>gitbook 的安装使用 · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -56,8 +56,6 @@
     <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
     <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
 
-    
-    <link rel="next" href="tools-easy-mock/" />
     
     
     <link rel="prev" href="./" />
@@ -134,9 +132,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3" data-path="./">
+        <li class="chapter " data-level="1.3" data-path="../tools/">
             
-                <a href="./">
+                <a href="../tools/">
             
                     
                     工具
@@ -148,9 +146,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="1.3.1" data-path="tools-merge-tool.html">
+        <li class="chapter " data-level="1.3.1" data-path="../tools/tools-merge-tool.html">
             
-                <a href="tools-merge-tool.html">
+                <a href="../tools/tools-merge-tool.html">
             
                     
                     mergetool 配置
@@ -161,9 +159,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.2" data-path="tools-easy-mock/">
+        <li class="chapter " data-level="1.3.2" data-path="../tools/tools-easy-mock/">
             
-                <a href="tools-easy-mock/">
+                <a href="../tools/tools-easy-mock/">
             
                     
                     Easy Mock
@@ -175,9 +173,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.3.2.1" data-path="tools-easy-mock/tools-easy-mock.html">
+        <li class="chapter " data-level="1.3.2.1" data-path="../tools/tools-easy-mock/tools-easy-mock.html">
             
-                <a href="tools-easy-mock/tools-easy-mock.html">
+                <a href="../tools/tools-easy-mock/tools-easy-mock.html">
             
                     
                     Easy Mock 的本地搭建
@@ -422,9 +420,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.9" data-path="../gitbook/">
+        <li class="chapter " data-level="1.9" data-path="./">
             
-                <a href="../gitbook/">
+                <a href="./">
             
                     
                     gitbook]
@@ -436,9 +434,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.9.1" data-path="../gitbook/gitbook.html">
+        <li class="chapter active" data-level="1.9.1" data-path="gitbook.html">
             
-                <a href="../gitbook/gitbook.html">
+                <a href="gitbook.html">
             
                     
                     gitbook 的安装使用
@@ -484,7 +482,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../.." >mergetool 配置</a>
+        <a href="../.." >gitbook 的安装使用</a>
     </h1>
 </div>
 
@@ -499,53 +497,32 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="git-&#x4E0B;&#x7684;-mergetool-&#x914D;&#x7F6E;">git &#x4E0B;&#x7684; mergetool &#x914D;&#x7F6E;</h1>
-<p>&#x5728;&#x4F7F;&#x7528; <code>git merge</code> &#x547D;&#x4EE4;&#x5408;&#x5E76;&#x5206;&#x652F;&#x9047;&#x5230;&#x51B2;&#x7A81;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x867D;&#x7136;&#x53EF;&#x4EE5;&#x901A;&#x8FC7; <code>git diff</code> &#x6765;&#x67E5;&#x770B;&#x51B2;&#x7A81;&#x7684;&#x5177;&#x4F53;&#x4FE1;&#x606F;&#xFF0C;&#x5E76;&#x67E5;&#x627E;&#x51B2;&#x7A81;&#x4F9D;&#x6B21;&#x89E3;&#x51B3;&#xFF0C;&#x4F46;&#x662F;&#x5F53;&#x51B2;&#x7A81;&#x8F83;&#x591A;&#x7684;&#x65F6;&#x5019;&#x5BFB;&#x627E;&#x6BCF;&#x4E2A;&#x6587;&#x4EF6;&#x7684;&#x51B2;&#x7A81;&#x6807;&#x8BB0;&#x53BB;&#x89E3;&#x51B3;&#x53EF;&#x80FD;&#x4F1A;&#x6BD4;&#x8F83;&#x9EBB;&#x70E6;&#xFF0C;git command &#x63D0;&#x4F9B;&#x4E86;
- <code>difftool</code> &#x548C; <code>mergetool</code> &#x547D;&#x4EE4;&#x6765;&#x652F;&#x6301;&#x901A;&#x8FC7;&#x5176;&#x4ED6;&#x8F6F;&#x4EF6;&#x8F93;&#x51FA; diff &#x7684;&#x5206;&#x6790;&#x7ED3;&#x679C;&#x4EE5;&#x53CA;&#x8FDB;&#x884C;&#x6587;&#x4EF6;&#x7684; merge&#xFF0C;&#x4E0B;&#x9762;&#x4EC5;&#x4EE5;&#x5927;&#x5BB6;&#x5E38;&#x7528;&#x7684;&#x6BD4;&#x8F83;&#x5DE5;&#x5177; Beyond Compare &#x4E3A;&#x4F8B;&#xFF0C;&#x7B80;&#x8FF0; <code>difftool</code> &#x548C; <code>mergetool</code> &#x7684;&#x914D;&#x7F6E;</p>
-<h2 id="1&#x67E5;&#x770B;&#x5F53;&#x524D;&#x7CFB;&#x7EDF;&#x652F;&#x6301;&#x7684;-merge-&#x63D2;&#x4EF6;">1.&#x67E5;&#x770B;&#x5F53;&#x524D;&#x7CFB;&#x7EDF;&#x652F;&#x6301;&#x7684; merge &#x63D2;&#x4EF6;</h2>
-<pre><code>git difftool --tool-help 
+                                <h1 id="gitbook">GitBook</h1>
+<p>&#x501F;&#x52A9; gitbook &#x53EF;&#x4EE5;&#x8BA9;&#x4F60;&#x4F7F;&#x7528; git &#x548C; markdown &#x6765;&#x7F16;&#x6392;&#x56FE;&#x4E66;</p>
+<h2 id="&#x4F9D;&#x8D56;">&#x4F9D;&#x8D56;</h2>
+<p>node.js</p>
+<p>gitbook</p>
+<pre><code>npm install gitbook -g
+</code></pre><h2 id="&#x4F7F;&#x7528;">&#x4F7F;&#x7528;</h2>
+<h3 id="&#x521D;&#x59CB;&#x5316;">&#x521D;&#x59CB;&#x5316;</h3>
+<p>&#x9996;&#x5148;&#x6211;&#x4EEC;&#x501F;&#x52A9; gitbook &#x6765;&#x521D;&#x59CB;&#x5316;&#x4E00;&#x4E2A;&#x9879;&#x76EE;</p>
+<pre><code>gitbook init
+</code></pre><p>&#x4F1A;&#x5728;&#x76EE;&#x5F55;&#x4E0B;&#x751F;&#x6210; README.md &#x548C; SUMMARY.md &#x8FD9;&#x4E24;&#x4E2A;&#x6587;&#x4EF6;</p>
+<p>SUMMARY.md &#x7528;&#x4E8E;&#x8BBE;&#x7F6E;&#x76EE;&#x5F55;&#x540D;&#x79F0;&#x548C;&#x5BF9;&#x5E94;&#x6587;&#x4EF6;&#x8DEF;&#x5F84;&#xFF0C;&#x521D;&#x59CB;&#x5316;&#x540E;&#x9ED8;&#x8BA4;&#x7684;&#x5185;&#x5BB9;&#x5982;&#x4E0B;</p>
+<pre><code># Summary
 
-git mergetool --tool-help
-</code></pre><p>&#x901A;&#x8FC7;&#x4E0A;&#x9762;&#x7684;&#x547D;&#x4EE4;&#x53EF;&#x4EE5;&#x67E5;&#x770B;&#x5F53;&#x524D;&#x7CFB;&#x7EDF;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x7684;&#x548C;&#x652F;&#x6301;&#x7684; <code>git diff</code> &#x6216; <code>git merge</code> &#x63D2;&#x4EF6;&#xFF0C;&#x8FD0;&#x884C;&#x7ED3;&#x679C;&#x5982;&#x56FE;&#xFF0C;git&#x63D0;&#x4F9B;&#x4E86;&#x5BF9;&#x591A;&#x79CD;&#x6BD4;&#x8F83;&#x5DE5;&#x5177;&#x7684;&#x652F;&#x6301;</p>
-<p><img src="tools-merge-tool/01.jpg" alt="&#x53EF;&#x7528;&#x7684;&#x5DE5;&#x5177;&#x5217;&#x8868;"></p>
-<p>&#x5176;&#x4E2D; bc3 &#x5373;&#x5BF9;&#x5E94; Beyond Compare &#x7248;&#x672C;3&#x3001;4</p>
-<h2 id="2difftool--mergetool-&#x914D;&#x7F6E;">2.difftool / mergetool &#x914D;&#x7F6E;</h2>
-<h3 id="&#x4F9D;&#x8D56;">&#x4F9D;&#x8D56;</h3>
-<p>macox &#x9700;&#x8981;&#x5B89;&#x88C5; bc &#x7684;&#x547D;&#x4EE4;&#x884C;&#x5DE5;&#x5177;&#xFF08;&#x5728; bc &#x83DC;&#x5355;&#x4E2D;&#x8FD0;&#x884C; Install Command Line Tools &#x5373;&#x53EF;&#xFF09;</p>
-<h3 id="&#x914D;&#x7F6E;">&#x914D;&#x7F6E;</h3>
-<h4 id="macox">macox</h4>
-<p>difftool</p>
-<pre><code>git config --global diff.tool bc3
-</code></pre><p> mergetool</p>
-<pre><code>git config --global merge.tool bc3   //&#x5C06;bc&#x8BBE;&#x7F6E;&#x4E3A;&#x9ED8;&#x8BA4;mergetool
-git config --global mergetool.bc3 trustExitCode true   //&#x8BBE;&#x7F6E;&#x9000;&#x51FA;bc&#x65F6;&#x5B8C;&#x6210;merge
-</code></pre><h3 id="windows">windows</h3>
-<p>difftool</p>
-<pre><code>git config --global diff.tool bc3 
-git config --global difftool.bc3.path &quot;bcomp.exe&#x7684;&#x8DEF;&#x5F84;&quot;
-</code></pre><p>mergetool</p>
-<pre><code>git config --global merge.tool bc3 
-git config --global mergetool.bc3.path &quot;bcomp.exe&#x7684;&#x8DEF;&#x5F84;&quot;
-</code></pre><h2 id="3&#x4F7F;&#x7528;">3.&#x4F7F;&#x7528;</h2>
-<p>&#x63D0;&#x4EA4; commit &#x540E;&#x6267;&#x884C; <code>git merge</code> &#x5982;&#x65E0;&#x51B2;&#x7A81;&#x5373;&#x81EA;&#x52A8;&#x5408;&#x5E76;&#xFF0C;&#x5982;&#x679C;&#x5408;&#x5E76;&#x4E24;&#x4E2A;&#x5206;&#x652F;&#x4EA7;&#x751F;&#x51B2;&#x7A81;&#x65E0;&#x6CD5;&#x81EA;&#x52A8;&#x5B8C;&#x6210; merge &#x65F6;&#xFF08;&#x5982;&#x56FE;&#xFF09;&#x5373;&#x53EF;&#x4F7F;&#x7528; <code>git mergetool</code>&#xFF08;&#x524D;&#x9762;&#x8BBE;&#x7F6E;&#x4E86; bc &#x4E3A;&#x9ED8;&#x8BA4; mergetool &#xFF09;&#x8C03;&#x8D77; Beyond Compare &#xFF08;&#x5982;&#x9700;&#x8FD0;&#x884C;&#x5176;&#x5B83;&#x6BD4;&#x8F83;&#x5DE5;&#x5177; &#x6267;&#x884C; <code>git mergetool &#x2013;tool=&#x5DE5;&#x5177;&#x540D;</code> &#x5373;&#x53EF; &#x4F8B;&#x5982; <code>git mergetool &#x2013;tool=opendiff</code> &#xFF09;</p>
-<p><img src="tools-merge-tool/02.jpg" alt="&#x56FE;&#x7247;&#x63CF;&#x8FF0;"></p>
-<p>&#x6709;&#x591A;&#x4E2A;&#x6587;&#x4EF6;&#x7684;&#x8BDD;&#x4F1A;&#x4F9D;&#x6B21;&#x6253;&#x5F00;&#xFF0C;&#x968F;&#x540E;&#x4F7F;&#x7528;Beyond Compare&#x8FDB;&#x884C;&#x6587;&#x4EF6;&#x7684;merge&#x4FDD;&#x5B58;&#x5373;&#x53EF;&#xFF08;&#x5982;&#x56FE;&#xFF09;</p>
-<p><img src="tools-merge-tool/03.jpg" alt="&#x56FE;&#x7247;&#x63CF;&#x8FF0;"></p>
-<p>&#x5176;&#x4E2D;&#x5F53;&#x524D;&#x6240;&#x5728;&#x5206;&#x652F;&#x4F1A;&#x4F5C;&#x4E3A;local&#xFF08;&#x5DE6;&#x4FA7;&#xFF09;&#xFF0C;merge&#x7684;&#x5206;&#x652F;&#x4F1A;&#x4F5C;&#x4E3A;remote&#xFF08;&#x53F3;&#x4FA7;&#xFF09;</p>
-<p>difftool &#x7684;&#x4F7F;&#x7528;&#x4E0E; mergetool &#x7C7B;&#x4F3C; &#x5728; commit &#x4E4B;&#x540E; &#x8FD0;&#x884C; <code>git difftool</code> &#x6216;&#x8005; <code>git difftool+&#x6587;&#x4EF6;&#x540D;</code> &#x65E2;&#x53EF;&#x8C03;&#x8D77; Beyond Compare &#x6765;&#x67E5;&#x770B; diff &#x7684;&#x5206;&#x6790;&#x7ED3;&#x679C;</p>
-<h2 id="&#x8865;&#x5145;&#xFF1A;">&#x8865;&#x5145;&#xFF1A;</h2>
-<p>windows &#x5982;&#x679C;&#x51FA;&#x73B0;&#x867D;&#x7136;&#x5B89;&#x88C5;&#x4E86;bc &#x4F46;&#x662F;&#x4F5C;&#x4E3A; mergetool &#x4E0D;&#x53EF;&#x7528;&#x7684;&#x60C5;&#x51B5; &#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x4FEE;&#x6539;&#x7528;&#x6237;&#x76EE;&#x5F55;&#x4E0B;&#x7684; gitconfig &#x8FFD;&#x52A0; difftool &#x548C; mergetool &#x7684;&#x914D;&#x7F6E;</p>
-<p>&#x5185;&#x5BB9;&#x5982;&#x4E0B;&#xFF0C;mergetool &#x7684;&#x540D;&#x5B57;&#x53EF;&#x4EE5;&#x81EA;&#x5B9A;&#xFF0C;&#x8DEF;&#x5F84;&#x4FEE;&#x6539;&#x4E3A;&#x672C;&#x5730; bcomp.exe &#x7684;&#x8DEF;&#x5F84;&#x5373;&#x53EF;</p>
-<pre><code>[diff]
-tool = bc4
-[difftool &quot;bc4&quot;]
-cmd = \&quot;c:/program files (x86)/beyond compare 4/bcomp.exe\&quot; \&quot;$LOCAL\&quot; \&quot;$REMOTE\&quot;
-[merge]
-tool = bc4
-[mergetool &quot;bc4&quot;]
-cmd = \&quot;c:/program files (x86)/beyond compare 4/bcomp.exe\&quot; \&quot;$LOCAL\&quot; \&quot;$REMOTE\&quot; \&quot;$BASE\&quot; \&quot;$MERGED\&quot;
-trustExitCode = true
-</code></pre>
+* [Introduction](README.md)
+</code></pre><p>&#x5176;&#x4E2D; Introduction &#x662F;&#x76EE;&#x5F55;&#x540D;&#x79F0;&#xFF0C;README.md &#x4E3A;&#x8BE5;&#x76EE;&#x5F55;&#x5BF9;&#x5E94;&#x7684; markdown &#x6587;&#x4EF6;&#x8DEF;&#x5F84;</p>
+<h3 id="&#x672C;&#x5730;&#x9884;&#x89C8;">&#x672C;&#x5730;&#x9884;&#x89C8;</h3>
+<p>&#x4FEE;&#x6539;&#x76EE;&#x5F55;&#x540E;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x8FDB;&#x884C;&#x672C;&#x5730;&#x9884;&#x89C8;</p>
+<pre><code>gitbook serve
+</code></pre><p>&#x5BF9;&#x5E94;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x5982;&#x4E0B;&#x6548;&#x679C;</p>
+<p><img src="gitbook/01.png" alt="&#x56FE;&#x7247;&#x63CF;&#x8FF0;"></p>
+<h3 id="&#x7F16;&#x8BD1;">&#x7F16;&#x8BD1;</h3>
+<p>&#x6267;&#x884C; </p>
+<pre><code>gitbook build
+</code></pre><p>&#x53EF;&#x4EE5;&#x628A; markdown &#x7F16;&#x8BD1;&#x4E3A; html &#x6587;&#x4EF6;&#xFF0C;&#x8F93;&#x51FA;&#x5728;&#x8DDF;&#x76EE;&#x5F55; _book &#x6587;&#x4EF6;&#x5939;&#x4E0B;</p>
+
                                 
                                 </section>
                             
@@ -572,14 +549,10 @@ trustExitCode = true
 
             
                 
-                <a href="./" class="navigation navigation-prev " aria-label="Previous page: 工具">
+                <a href="./" class="navigation navigation-prev navigation-unique" aria-label="Previous page: gitbook]">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
-                
-                <a href="tools-easy-mock/" class="navigation navigation-next " aria-label="Next page: Easy Mock">
-                    <i class="fa fa-angle-right"></i>
-                </a>
                 
             
         
@@ -588,7 +561,7 @@ trustExitCode = true
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"mergetool 配置","level":"1.3.1","depth":2,"next":{"title":"Easy Mock","level":"1.3.2","depth":2,"path":"notes/tools/tools-easy-mock/README.md","ref":"./notes/tools/tools-easy-mock/README.md","articles":[{"title":"Easy Mock 的本地搭建","level":"1.3.2.1","depth":3,"path":"notes/tools/tools-easy-mock/tools-easy-mock.md","ref":"./notes/tools/tools-easy-mock/tools-easy-mock.md","articles":[]}]},"previous":{"title":"工具","level":"1.3","depth":1,"path":"notes/tools/README.md","ref":"./notes/tools/README.md","articles":[{"title":"mergetool 配置","level":"1.3.1","depth":2,"path":"notes/tools/tools-merge-tool.md","ref":"./notes/tools/tools-merge-tool.md","articles":[]},{"title":"Easy Mock","level":"1.3.2","depth":2,"path":"notes/tools/tools-easy-mock/README.md","ref":"./notes/tools/tools-easy-mock/README.md","articles":[{"title":"Easy Mock 的本地搭建","level":"1.3.2.1","depth":3,"path":"notes/tools/tools-easy-mock/tools-easy-mock.md","ref":"./notes/tools/tools-easy-mock/tools-easy-mock.md","articles":[]}]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"notes/tools/tools-merge-tool.md","mtime":"2018-08-27T15:37:46.222Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-09-26T06:04:41.533Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"gitbook 的安装使用","level":"1.9.1","depth":2,"previous":{"title":"gitbook]","level":"1.9","depth":1,"path":"notes/gitbook/README.md","ref":"./notes/gitbook/README.md","articles":[{"title":"gitbook 的安装使用","level":"1.9.1","depth":2,"path":"notes/gitbook/gitbook.md","ref":"./notes/gitbook/gitbook.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"notes/gitbook/gitbook.md","mtime":"2018-09-26T06:01:56.559Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-09-26T06:04:41.533Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
