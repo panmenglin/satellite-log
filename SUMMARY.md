@@ -3,6 +3,8 @@
 * [卫星日志](README.md)
 * [规范](./notes/rules/README.md)
   * [commit message 规范](./notes/rules/rules-commit-message.md)
+* [设计模式](./notes/design-pattern/README.md)
+  * [原型模式](./notes/design-pattern/prototype-mode.md)
 * [工具](./notes/tools/README.md)
   * [mergetool 配置](./notes/tools/tools-merge-tool.md)
   * [Easy Mock](./notes/tools/tools-easy-mock/README.md)
@@ -23,3 +25,4 @@
     * [小程序Q&A](./notes/wechat/mini-program/Q&A.md)
 * [gitbook]](./notes/gitbook/README.md)
   * [gitbook 的安装使用](./notes/gitbook/gitbook.md)
+
