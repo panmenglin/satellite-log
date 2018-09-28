@@ -69,7 +69,7 @@ pargeKey 分页字段
 </photos-scroll>
 ```
 
-···javascript
+```javascript
 
 ...
 
@@ -79,7 +79,7 @@ openPhotoSwipe (items, index) {
 
 ...
 
-···
+```
 
 props 说明
 
