@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.12.0"></a>
+# [1.12.0](https://github.com/panmenglin/satellite-log/compare/v1.11.0...v1.12.0) (2018-10-08)
+
+
+### Features
+
+* **doc:** 计模式-基础知识（this、闭包、高阶函数） ([f4f480c](https://github.com/panmenglin/satellite-log/commit/f4f480c))
+
+
+
 <a name="1.11.0"></a>
 # [1.11.0](https://github.com/panmenglin/satellite-log/compare/v1.10.0...v1.11.0) (2018-09-29)
 
