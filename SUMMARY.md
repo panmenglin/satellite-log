@@ -26,6 +26,8 @@
     * [小程序Q&A](./notes/wechat/mini-program/Q&A.md)
 * [mpvue](./notes/mpvue/README.md)
   * [mpvue Q&A](./notes/mpvue/Q&A.md)
+* [HTTP](./notes/http/README.md)
+  * [header](./notes/http/header.md)
 * [gitbook]](./notes/gitbook/README.md)
   * [gitbook 的安装使用](./notes/gitbook/gitbook.md)
 
