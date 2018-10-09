@@ -10,8 +10,17 @@
 
 增加 webkit 前缀
 
-```
+```css
 -webkit-transform
 
 -webkit-animation
+```
+
+3. 清除 select 默认样式, 统一 safari 和 chrome 样式
+
+```css
+select {
+  -webkit-appearance: none;
+  appearance: none;
+}
 ```
