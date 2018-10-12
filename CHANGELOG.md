@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.15.0"></a>
+# [1.15.0](https://github.com/panmenglin/satellite-log/compare/v1.14.0...v1.15.0) (2018-10-12)
+
+
+### Features
+
+* **doc:** 小程序增加 navigateTo 的注意事项 ([d67c0da](https://github.com/panmenglin/satellite-log/commit/d67c0da))
+
+
+
 <a name="1.14.0"></a>
 # [1.14.0](https://github.com/panmenglin/satellite-log/compare/v1.13.0...v1.14.0) (2018-10-09)
 
