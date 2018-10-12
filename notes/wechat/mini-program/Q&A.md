@@ -12,3 +12,9 @@
 其中 target 指定 miniProgram, app-id 为跳转至小程序的 appid，version 指定跳转至小程序的版本，develop 为开发版，trial 为体验版，release 为正式版
 
 无论该参数怎么设置，如果当前小程序是正式版，则打开的必定是正式版
+
+3. web-view 嵌套页面跳转
+
+`web-view` 嵌套页面中可以使用 `wx.miniProgram.navigateTo` 进行小程序的跳转
+
+但是当跳转的 `url` 参数中有中文时， ios 下会跳转失败，需要对中文做转义处理
