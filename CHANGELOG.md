@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.17.0"></a>
+# [1.17.0](https://github.com/panmenglin/satellite-log/compare/v1.16.0...v1.17.0) (2018-10-19)
+
+
+### Features
+
+* **doc:** css mask ([032a829](https://github.com/panmenglin/satellite-log/commit/032a829))
+
+
+
 <a name="1.16.0"></a>
 # [1.16.0](https://github.com/panmenglin/satellite-log/compare/v1.15.0...v1.16.0) (2018-10-19)
 
