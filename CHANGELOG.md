@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.18.0"></a>
+# [1.18.0](https://github.com/panmenglin/satellite-log/compare/v1.17.0...v1.18.0) (2018-10-24)
+
+
+### Features
+
+* **doc:** 单例模式 ([d2b87f8](https://github.com/panmenglin/satellite-log/commit/d2b87f8))
+
+
+
 <a name="1.17.0"></a>
 # [1.17.0](https://github.com/panmenglin/satellite-log/compare/v1.16.0...v1.17.0) (2018-10-19)
 
