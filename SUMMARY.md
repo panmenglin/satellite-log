@@ -6,6 +6,7 @@
 * [设计模式](./notes/design-pattern/README.md)
   * [基础知识（this、闭包、高阶函数）](./notes/design-pattern/base.md)
   * [原型模式](./notes/design-pattern/prototype-mode.md)
+  * [单例模式](./notes/design-pattern/单例模式.md)
 * [工具](./notes/tools/README.md)
   * [mergetool 配置](./notes/tools/tools-merge-tool.md)
   * [Easy Mock](./notes/tools/tools-easy-mock/README.md)
