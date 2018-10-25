@@ -23,7 +23,7 @@
   * [位移动画使用 translate 替代其他位移属性](./notes/css/css-translate.md)
   * [ios 兼容性](./notes/css/ios-css.md)
   * [object](./notes/css/object.md)
-  * [m](./notes/css/object.md)
+  * [mask](./notes/css/mask.md)
 * [wechat](./notes/wechat/README.md)
   * [小程序](./notes/wechat/mini-program/README.md)
     * [小程序Q&A](./notes/wechat/mini-program/Q&A.md)
