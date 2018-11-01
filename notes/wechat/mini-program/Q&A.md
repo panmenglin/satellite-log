@@ -24,3 +24,11 @@
 `web-view` 的 `url` 中出现特殊字符会影响页面的显示
 
 从 ios 通讯录中复制的手机号会带有不占位不可见的特殊字符，转义后为 `%E2%80%AD`, `%E2%80%AC`
+
+5. webview 上传图片
+
+微信内嵌网页使用 input 上传时属性配置与其他浏览器有所不同
+
+```html
+<input class="upload_pic" type="file" accept="image/*" />
+```
