@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.19.0"></a>
+# [1.19.0](https://github.com/panmenglin/satellite-log/compare/v1.18.0...v1.19.0) (2018-12-06)
+
+
+### Features
+
+* **base:** 剪贴板操作 ([2710ca6](https://github.com/panmenglin/satellite-log/commit/2710ca6))
+
+
+
 <a name="1.18.0"></a>
 # [1.18.0](https://github.com/panmenglin/satellite-log/compare/v1.17.0...v1.18.0) (2018-10-24)
 
