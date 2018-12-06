@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>vue-photos-scroll · GitBook</title>
+        <title>javascript] · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../test/README.md" />
+    <link rel="next" href="clipboard.html" />
     
     
-    <link rel="prev" href="axios.html" />
+    <link rel="prev" href="../gitbook/gitbook.html" />
     
 
     </head>
@@ -288,9 +288,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.6" data-path="./">
+        <li class="chapter " data-level="1.6" data-path="../vue/">
             
-                <a href="./">
+                <a href="../vue/">
             
                     
                     Vue.js
@@ -302,9 +302,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.6.1" data-path="axios.html">
+        <li class="chapter " data-level="1.6.1" data-path="../vue/axios.html">
             
-                <a href="axios.html">
+                <a href="../vue/axios.html">
             
                     
                     axios
@@ -315,9 +315,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.6.2" data-path="vue-photos-scroll.html">
+        <li class="chapter " data-level="1.6.2" data-path="../vue/vue-photos-scroll.html">
             
-                <a href="vue-photos-scroll.html">
+                <a href="../vue/vue-photos-scroll.html">
             
                     
                     vue-photos-scroll
@@ -602,9 +602,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.13" data-path="../js/">
+        <li class="chapter active" data-level="1.13" data-path="./">
             
-                <a href="../js/">
+                <a href="./">
             
                     
                     javascript]
@@ -616,9 +616,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.13.1" data-path="../js/clipboard.html">
+        <li class="chapter " data-level="1.13.1" data-path="clipboard.html">
             
-                <a href="../js/clipboard.html">
+                <a href="clipboard.html">
             
                     
                     剪贴板
@@ -664,7 +664,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../.." >vue-photos-scroll</a>
+        <a href="../.." >javascript]</a>
     </h1>
 </div>
 
@@ -679,72 +679,7 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="vue-&#x56FE;&#x7247;&#x5217;&#x8868;&#x63D2;&#x4EF6;">vue &#x56FE;&#x7247;&#x5217;&#x8868;&#x63D2;&#x4EF6;</h1>
-<p>&#x652F;&#x6301;&#x56FE;&#x7247;&#x5217;&#x8868;&#x7684;&#x6EDA;&#x52A8;&#x52A0;&#x8F7D;</p>
-<p>&#x4EFF;&#x5FAE;&#x4FE1;&#x7684;&#x56FE;&#x7247;&#x5927;&#x56FE;&#x9884;&#x89C8;&#x529F;&#x80FD;</p>
-<h1 id="&#x5B89;&#x88C5;">&#x5B89;&#x88C5;</h1>
-<pre><code>npm install save vue-photos-scroll
-</code></pre><h1 id="&#x4F7F;&#x7528;">&#x4F7F;&#x7528;</h1>
-<ol>
-<li>&#x9996;&#x5148;&#x5F15;&#x5165;&#x63D2;&#x4EF6;</li>
-</ol>
-<pre><code class="lang-javascript"><span class="hljs-keyword">import</span> {photosScroll, swipe} <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;vue-photos-scroll&apos;</span>
-</code></pre>
-<ol>
-<li>components &#x4E2D;&#x6CE8;&#x5165;</li>
-</ol>
-<pre><code class="lang-javascript">
-...
-
-components: {
-  photosScroll,
-  swipe
-}
-
-...
-</code></pre>
-<ol>
-<li>&#x6EDA;&#x52A8;&#x52A0;&#x8F7D;</li>
-</ol>
-<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">photos-scroll</span> <span class="hljs-attr">v-if</span>=<span class="hljs-string">&quot;reload&quot;</span> <span class="hljs-attr">:loadFun</span>=<span class="hljs-string">&quot;loadFun&quot;</span> <span class="hljs-attr">:loadParams</span>=<span class="hljs-string">&quot;scrollLoadParams&quot;</span> <span class="hljs-attr">pagerKey</span>=<span class="hljs-string">&quot;page&quot;</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">template</span> <span class="hljs-attr">slot-scope</span>=<span class="hljs-string">&quot;{item, items, index}&quot;</span> <span class="hljs-attr">slot</span>=<span class="hljs-string">&quot;content&quot;</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">:src</span>=<span class="hljs-string">&quot;item.url&quot;</span>&gt;</span>
-  <span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">photos-scroll</span>&gt;</span>
-</code></pre>
-<p>props &#x8BF4;&#x660E;</p>
-<p>reload &#x662F;&#x5426;&#x91CD;&#x65B0;&#x8F7D;&#x5165;</p>
-<p>loadFun &#x52A0;&#x8F7D;&#x7684;&#x65B9;&#x6CD5;&#xFF0C;&#x8FD4;&#x56DE;&#x5F53;&#x524D;&#x9875;&#x9762;&#x7684;&#x6570;&#x636E;&#x6570;&#x7EC4;</p>
-<p>loadParams &#x8BF7;&#x6C42;&#x52A0;&#x8F7D;&#x670D;&#x52A1;&#x7684;&#x53C2;&#x6570;</p>
-<p>pargeKey &#x5206;&#x9875;&#x5B57;&#x6BB5;</p>
-<ol>
-<li>&#x5927;&#x56FE;&#x9884;&#x89C8;</li>
-</ol>
-<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">swipe</span> <span class="hljs-attr">ref</span>=<span class="hljs-string">&quot;swipe&quot;</span> <span class="hljs-attr">imgKey</span>=<span class="hljs-string">&quot;url&quot;</span> <span class="hljs-attr">originImgKey</span>=<span class="hljs-string">&quot;originUrl&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">swipe</span>&gt;</span>
-</code></pre>
-<p>&#x56FE;&#x7247;&#x4E0A;&#x589E;&#x52A0;&#x70B9;&#x51FB;&#x65F6;&#x95F4;</p>
-<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">photos-scroll</span> <span class="hljs-attr">v-if</span>=<span class="hljs-string">&quot;reload&quot;</span> <span class="hljs-attr">:loadFun</span>=<span class="hljs-string">&quot;loadFun&quot;</span> <span class="hljs-attr">:loadParams</span>=<span class="hljs-string">&quot;scrollLoadParams&quot;</span> <span class="hljs-attr">pagerKey</span>=<span class="hljs-string">&quot;page&quot;</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">template</span> <span class="hljs-attr">slot-scope</span>=<span class="hljs-string">&quot;{item, items, index}&quot;</span> <span class="hljs-attr">slot</span>=<span class="hljs-string">&quot;content&quot;</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">:src</span>=<span class="hljs-string">&quot;item.url&quot;</span> @<span class="hljs-attr">click</span>=<span class="hljs-string">&quot;openPhotoSwipe(items, index)&quot;</span>&gt;</span>
-  <span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">photos-scroll</span>&gt;</span>
-</code></pre>
-<pre><code class="lang-javascript">
-...
-
-openPhotoSwipe (items, index) {
-  <span class="hljs-keyword">this</span>.$refs.swipe.openPhotoSwipe(items, index)
-}
-
-...
-</code></pre>
-<p>props &#x8BF4;&#x660E;</p>
-<p>imgKey &#x56FE;&#x7247;&#x5B57;&#x6BB5;</p>
-<p>originUrl &#x539F;&#x56FE;&#x5B57;&#x6BB5;</p>
-<p>&#x53C2;&#x6570;&#x8BF4;&#x660E;</p>
-<p>items &#x4F20;&#x5165;&#x7684;&#x5FAA;&#x73AF;&#x5BF9;&#x8C61;</p>
-<p>index &#x4E0B;&#x6807;</p>
-
+                                
                                 
                                 </section>
                             
@@ -771,12 +706,12 @@ openPhotoSwipe (items, index) {
 
             
                 
-                <a href="axios.html" class="navigation navigation-prev " aria-label="Previous page: axios">
+                <a href="../gitbook/gitbook.html" class="navigation navigation-prev " aria-label="Previous page: gitbook 的安装使用">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="../test/README.md" class="navigation navigation-next " aria-label="Next page: 自动化测试">
+                <a href="clipboard.html" class="navigation navigation-next " aria-label="Next page: 剪贴板">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -787,7 +722,7 @@ openPhotoSwipe (items, index) {
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"vue-photos-scroll","level":"1.6.2","depth":2,"next":{"title":"自动化测试","level":"1.7","depth":1,"path":"notes/test/README.md","ref":"./notes/test/README.md","articles":[{"title":"BackstopJS","level":"1.7.1","depth":2,"path":"notes/test/backstopjs/README.md","ref":"./notes/test/backstopjs/README.md","articles":[{"title":"BackstopJS 安装","level":"1.7.1.1","depth":3,"path":"notes/test/backstopjs/backstopjs.md","ref":"./notes/test/backstopjs/backstopjs.md","articles":[]}]}]},"previous":{"title":"axios","level":"1.6.1","depth":2,"path":"notes/vue/axios.md","ref":"./notes/vue/axios.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"notes/vue/vue-photos-scroll.md","mtime":"2018-09-28T01:54:07.417Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-12-06T10:27:07.467Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"javascript]","level":"1.13","depth":1,"next":{"title":"剪贴板","level":"1.13.1","depth":2,"path":"notes/js/clipboard.md","ref":"./notes/js/clipboard.md","articles":[]},"previous":{"title":"gitbook 的安装使用","level":"1.12.1","depth":2,"path":"notes/gitbook/gitbook.md","ref":"./notes/gitbook/gitbook.md","articles":[]},"dir":"neutral"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"notes/js/README.md","mtime":"2018-12-06T10:25:22.985Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-12-06T10:27:07.467Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>

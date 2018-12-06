@@ -33,4 +33,6 @@
   * [header](./notes/http/header.md)
 * [gitbook]](./notes/gitbook/README.md)
   * [gitbook 的安装使用](./notes/gitbook/gitbook.md)
+* [javascript]](./notes/js/README.md)
+  * [剪贴板](./notes/js/clipboard.md)
 
