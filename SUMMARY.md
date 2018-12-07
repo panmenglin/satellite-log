@@ -27,6 +27,7 @@
 * [wechat](./notes/wechat/README.md)
   * [小程序](./notes/wechat/mini-program/README.md)
     * [小程序Q&A](./notes/wechat/mini-program/Q&A.md)
+    * [mp-select](./notes/wechat/mini-program/Select.md)
 * [mpvue](./notes/mpvue/README.md)
   * [mpvue Q&A](./notes/mpvue/Q&A.md)
 * [HTTP](./notes/http/README.md)
