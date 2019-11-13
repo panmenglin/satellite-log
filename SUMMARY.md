@@ -32,8 +32,10 @@
   * [mpvue Q&A](./notes/mpvue/Q&A.md)
 * [HTTP](./notes/http/README.md)
   * [header](./notes/http/header.md)
-* [gitbook]](./notes/gitbook/README.md)
+* [gitbook](./notes/gitbook/README.md)
   * [gitbook 的安装使用](./notes/gitbook/gitbook.md)
-* [javascript]](./notes/js/README.md)
+* [javascript](./notes/js/README.md)
   * [剪贴板](./notes/js/clipboard.md)
+* [Linux](./notes/linux/README.md)
+  * [firewall](./notes/linux/firewall.md)
 
