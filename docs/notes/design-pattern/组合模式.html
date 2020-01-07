@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>迭代器模式 · GitBook</title>
+        <title>组合模式 · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="发布订阅模式.html" />
+    <link rel="next" href="../tools/" />
     
     
-    <link rel="prev" href="代理模式.html" />
+    <link rel="prev" href="命令模式.html" />
     
 
     </head>
@@ -200,7 +200,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.3.5" data-path="迭代器模式.html">
+        <li class="chapter " data-level="1.3.5" data-path="迭代器模式.html">
             
                 <a href="迭代器模式.html">
             
@@ -239,7 +239,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.8" data-path="组合模式.html">
+        <li class="chapter active" data-level="1.3.8" data-path="组合模式.html">
             
                 <a href="组合模式.html">
             
@@ -774,7 +774,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../.." >迭代器模式</a>
+        <a href="../.." >组合模式</a>
     </h1>
 </div>
 
@@ -789,21 +789,17 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x8FED;&#x4EE3;&#x5668;&#x6A21;&#x5F0F;">&#x8FED;&#x4EE3;&#x5668;&#x6A21;&#x5F0F;</h1>
+                                <h1 id="&#x7EC4;&#x5408;&#x6A21;&#x5F0F;">&#x7EC4;&#x5408;&#x6A21;&#x5F0F;</h1>
 <p>&#x8BFB;&#x4E66;&#x7B14;&#x8BB0;</p>
 <p>&#x66FE;&#x63A2;. JavaScript&#x8BBE;&#x8BA1;&#x6A21;&#x5F0F;&#x4E0E;&#x5F00;&#x53D1;&#x5B9E;&#x8DF5; (&#x56FE;&#x7075;&#x539F;&#x521B;). &#x4EBA;&#x6C11;&#x90AE;&#x7535;&#x51FA;&#x7248;&#x793E;. Kindle &#x7248;&#x672C;. </p>
 <hr>
-<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> each = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> ary, callback </span>) </span>{
-  <span class="hljs-keyword">for</span> ( <span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>, l = ary.length; i &lt; l; i++ ) {
-    callback.call( ary[i], i, ary[i]); <span class="hljs-comment">//&#x628A;&#x4E0B;&#x6807;&#x548C;&#x5143;&#x7D20;&#x5F53;&#x4F5C;&#x53C2;&#x6570;&#x4F20;&#x7ED9;callback&#x51FD;&#x6570;</span>
-  }
-};
-
-each([<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>], <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"> i, n </span>) </span>{
-    alert([ i, n ]);
-  }
-);
-</code></pre>
+<p>&#x7EC4;&#x5408;&#x6A21;&#x5F0F;&#x662F;&#x4E00;&#x79CD;HASA&#xFF08;&#x805A;&#x5408;&#xFF09;&#x7684;&#x5173;&#x7CFB;</p>
+<p>&#x7EC4;&#x5408;&#x6A21;&#x5F0F;&#x9664;&#x4E86;&#x8981;&#x6C42;&#x7EC4;&#x5408;&#x5BF9;&#x8C61;&#x548C;&#x53F6;&#x5BF9;&#x8C61;&#x62E5;&#x6709;&#x76F8;&#x540C;&#x7684;&#x63A5;&#x53E3;&#x4E4B;&#x5916;&#xFF0C;&#x8FD8;&#x6709;&#x4E00;&#x4E2A;&#x5FC5;&#x8981;&#x6761;&#x4EF6;&#xFF0C;&#x5C31;&#x662F;&#x5BF9;&#x4E00;&#x7EC4;&#x53F6;&#x5BF9;&#x8C61;&#x7684;&#x64CD;&#x4F5C;&#x5FC5;&#x987B;&#x5177;&#x6709;&#x4E00;&#x81F4;&#x6027;&#x3002;</p>
+<p>&#x53CC;&#x5411;&#x6620;&#x5C04;&#x5173;&#x7CFB;</p>
+<p>&#x7528;&#x804C;&#x8D23;&#x94FE;&#x6A21;&#x5F0F;&#x63D0;&#x9AD8;&#x7EC4;&#x5408;&#x6A21;&#x5F0F;&#x6027;&#x80FD;</p>
+<h2 id="&#x4F55;&#x65F6;&#x4F7F;&#x7528;&#x7EC4;&#x5408;&#x6A21;&#x5F0F;">&#x4F55;&#x65F6;&#x4F7F;&#x7528;&#x7EC4;&#x5408;&#x6A21;&#x5F0F;</h2>
+<p>&#x8868;&#x793A;&#x5BF9;&#x8C61;&#x7684;&#x90E8;&#x5206;&#x6574;&#x4F53;&#x5C42;&#x6B21;&#x7ED3;&#x6784;</p>
+<p>&#x5BA2;&#x6237;&#x5E0C;&#x671B;&#x7EDF;&#x4E00;&#x5BF9;&#x5F85;&#x6811;&#x4E2D;&#x7684;&#x6240;&#x6709;&#x5BF9;&#x8C61;</p>
 
                                 
                                 </section>
@@ -831,12 +827,12 @@ each([<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<spa
 
             
                 
-                <a href="代理模式.html" class="navigation navigation-prev " aria-label="Previous page: 代理模式">
+                <a href="命令模式.html" class="navigation navigation-prev " aria-label="Previous page: 命令模式">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="发布订阅模式.html" class="navigation navigation-next " aria-label="Next page: 发布订阅（观察者）模式">
+                <a href="../tools/" class="navigation navigation-next " aria-label="Next page: 工具">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -847,7 +843,7 @@ each([<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<spa
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"迭代器模式","level":"1.3.5","depth":2,"next":{"title":"发布订阅（观察者）模式","level":"1.3.6","depth":2,"path":"notes/design-pattern/发布订阅模式.md","ref":"./notes/design-pattern/发布订阅模式.md","articles":[]},"previous":{"title":"代理模式","level":"1.3.4","depth":2,"path":"notes/design-pattern/代理模式.md","ref":"./notes/design-pattern/代理模式.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"notes/design-pattern/迭代器模式.md","mtime":"2020-01-07T03:17:34.866Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-01-07T07:55:19.119Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"组合模式","level":"1.3.8","depth":2,"next":{"title":"工具","level":"1.4","depth":1,"path":"notes/tools/README.md","ref":"./notes/tools/README.md","articles":[{"title":"mergetool 配置","level":"1.4.1","depth":2,"path":"notes/tools/tools-merge-tool.md","ref":"./notes/tools/tools-merge-tool.md","articles":[]},{"title":"Easy Mock","level":"1.4.2","depth":2,"path":"notes/tools/tools-easy-mock/README.md","ref":"./notes/tools/tools-easy-mock/README.md","articles":[{"title":"Easy Mock 的本地搭建","level":"1.4.2.1","depth":3,"path":"notes/tools/tools-easy-mock/tools-easy-mock.md","ref":"./notes/tools/tools-easy-mock/tools-easy-mock.md","articles":[]}]}]},"previous":{"title":"命令模式","level":"1.3.7","depth":2,"path":"notes/design-pattern/命令模式.md","ref":"./notes/design-pattern/命令模式.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"notes/design-pattern/组合模式.md","mtime":"2020-01-07T07:54:13.612Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-01-07T07:55:19.119Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
