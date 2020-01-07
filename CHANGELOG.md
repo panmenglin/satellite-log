@@ -2,6 +2,36 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.21.0"></a>
+# [1.21.0](https://github.com/panmenglin/satellite-log/compare/v1.0.4...v1.21.0) (2020-01-07)
+
+
+### Features
+
+* **base:** mp-select ([c0c1c7c](https://github.com/panmenglin/satellite-log/commit/c0c1c7c))
+* **base:** 剪贴板操作 ([2710ca6](https://github.com/panmenglin/satellite-log/commit/2710ca6))
+* **doc:** backstopJS 安装 ([ad62aba](https://github.com/panmenglin/satellite-log/commit/ad62aba))
+* **doc:** css mask ([032a829](https://github.com/panmenglin/satellite-log/commit/032a829))
+* **doc:** easy mock 本地搭建 ([a28a499](https://github.com/panmenglin/satellite-log/commit/a28a499))
+* **doc:** gitbook 的安装使用 ([9473834](https://github.com/panmenglin/satellite-log/commit/9473834))
+* **doc:** hTTP header 相关 ([009532b](https://github.com/panmenglin/satellite-log/commit/009532b))
+* **doc:** mpvue 问题汇总 ([7a58a04](https://github.com/panmenglin/satellite-log/commit/7a58a04))
+* **doc:** select 样式兼容 ([80fcfa1](https://github.com/panmenglin/satellite-log/commit/80fcfa1))
+* **doc:** translate 和 小程序Q&A 内容更新 ([9f4c55e](https://github.com/panmenglin/satellite-log/commit/9f4c55e))
+* **doc:** vue-photos-scroll 使用说明 ([9703c78](https://github.com/panmenglin/satellite-log/commit/9703c78))
+* **doc:** 位移动画使用 translate 替代其他位移属性 ([101d5ec](https://github.com/panmenglin/satellite-log/commit/101d5ec))
+* **doc:** 单例模式 ([d2b87f8](https://github.com/panmenglin/satellite-log/commit/d2b87f8))
+* **doc:** 图片相关 css ([a581337](https://github.com/panmenglin/satellite-log/commit/a581337))
+* **doc:** 基于 axios 的 Vue 项目 http 请求优化 ([16a04b0](https://github.com/panmenglin/satellite-log/commit/16a04b0))
+* **doc:** 小程序增加 navigateTo 的注意事项 ([d67c0da](https://github.com/panmenglin/satellite-log/commit/d67c0da))
+* **doc:** 小程序相关 ([fa25144](https://github.com/panmenglin/satellite-log/commit/fa25144))
+* **doc:** 小程序问题 ([d397daf](https://github.com/panmenglin/satellite-log/commit/d397daf))
+* **doc:** 新增 ios css 兼容性 ([032c2f3](https://github.com/panmenglin/satellite-log/commit/032c2f3))
+* **doc:** 计模式-基础知识（this、闭包、高阶函数） ([f4f480c](https://github.com/panmenglin/satellite-log/commit/f4f480c))
+* **doc:** 设计模式-原型模式 ([5d4ae91](https://github.com/panmenglin/satellite-log/commit/5d4ae91))
+
+
+
 <a name="1.20.0"></a>
 # [1.20.0](https://github.com/panmenglin/satellite-log/compare/v1.19.0...v1.20.0) (2018-12-07)
 
